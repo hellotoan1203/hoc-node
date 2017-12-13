@@ -5,7 +5,7 @@ sql.connect(setting.config).then(
      return pool.request().query('select * from Sinhvien')
   }).then(rs=>{
       rs.recordset.forEach(sinhvien=>{
-      console.log(sinhvien);
+      console.log(sinhvien);//a note
     })
   }).catch(e=>{
     console.log(e);
