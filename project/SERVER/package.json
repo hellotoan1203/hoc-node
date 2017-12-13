@@ -1,0 +1,11 @@
+{
+  "name": "simpleserver",
+  "version": "1.0.0",
+  "description": "App of Huu Toan",
+  "dependencies": {
+    "express": "*",
+    "multer": "^1.3.0"
+  },
+  "author": "Phoenix Ngo",
+  "license": "ISC"
+}

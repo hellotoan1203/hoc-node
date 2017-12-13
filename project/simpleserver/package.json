@@ -1,0 +1,15 @@
+{
+  "name": "simpleserver",
+  "version": "1.0.0",
+  "description": "App of Huu Toan",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies":{
+    "express":"*"
+  }
+  "author": "Phoenix Ngo",
+  "license": "ISC"
+}
