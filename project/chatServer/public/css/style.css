@@ -1,0 +1,55 @@
+body
+{
+  background-color: #d7d7d7;
+}
+.container{
+  width: 600px;
+  margin: auto;
+}
+#txtname{
+  background-color: transparent;
+  boder: solid 0.5px black;
+}
+#left{
+  width: 30%;
+  float:left;
+  background-color: rgb(156, 246, 173)
+}
+#right{
+  width: 70%;
+  float: right;
+  background-color: rgb(203, 242, 139);
+}
+#left,#right{
+  min-height: 300px;
+  overflow: hidden;
+
+}
+#boxTitle{
+  border: solid 1px black;
+  padding-left: 5px;
+  text-align: center;
+}
+#box-content{
+  border-top: none;
+  border: solid 1px black;
+  padding:5px;
+  text-align: center;
+}
+.user-online{
+  font-weight: bold;
+}
+
+#chat-area{
+  text-align: right;
+}
+#list-message{
+    height:200px;
+    background-color: rgb(107, 78, 130);
+}
+#txtMessage{
+  background-color: transparent;
+  border: solid 1px black;
+  margin-left: 150px;
+  margin-top: 10px;
+}
