@@ -34,6 +34,5 @@ io.on('connection',socket=>{
   //when some people send a message
   socket.on('user-send-message',(data)=>{
     io.sockets.emit('server-send-message',{user: socket.userName, message:data});
-    console.log('da send data')
   })
 })
