@@ -35,4 +35,13 @@ io.on('connection',socket=>{
   socket.on('user-send-message',(data)=>{
     io.sockets.emit('server-send-message',{user: socket.userName, message:data});
   })
+  //when someone are typing...
+  socket.on('typing-event', data=>{
+    var s=socket.userName+" is typing...";
+    socket.broadcast.emit('someone-typing-event', s);
+  })
+  //when someone stop typing...
+  socket.on('typing-stop',()=>{
+    socket.broadcast.emit('someone-stop-typing');
+  })
 })

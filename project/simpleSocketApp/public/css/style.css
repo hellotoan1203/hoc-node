@@ -1,0 +1,23 @@
+#wrapper{
+	width: 600px;
+	margin:auto;
+	height: auto;
+}
+#infomation{
+	border: solid 1px gray;
+	margin: 10px;
+}
+#listUser{
+	text-align: center;
+}
+.input{
+	width: 25%;
+}
+.hocvien{
+	border-bottom: dotted 1px black;
+	line-height: 20px;
+}
+.hang1 span{
+	font-weight: bold;
+	padding:12px;
+}

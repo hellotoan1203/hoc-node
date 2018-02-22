@@ -1,0 +1,14 @@
+#left{
+	width: 20%;
+	float:left;
+	border:solid 1px pink;
+}
+#right{
+	width:79%;
+	float: right;
+}
+#current-room{
+	background-color: red;
+	color:white;
+	float:right;
+}

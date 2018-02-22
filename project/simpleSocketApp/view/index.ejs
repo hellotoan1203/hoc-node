@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Index</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+	<script type="text/javascript" src="socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="js/process.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="infomation">
+			<input  class="input" type="text" id="txtName" placeholder="Name"/>
+			<input  class="input" type="text" id="txtEmail" placeholder="Email"/>
+			<input class="input" type="text" id="txtPhone" placeholder="Phone" />
+			<input type="button" value="Send" id="btnSend" >
+		</div>
+		<div id="listUser">
+			<h3 style="margin-bottom: 5px;">Danh sach hoc vien</h3>
+			<div id="ds">
+				<div class="hocvien">
+					<div class="hang1">id: 1 || <span>Nguyen van teo</span></div>
+					<div class="hang2">teo@gmail.com</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

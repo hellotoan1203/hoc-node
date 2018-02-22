@@ -3,11 +3,10 @@
 
 <head>
   <meta charset="utf-8">
-  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+  <script src="js/jquery.min.js" type="text/javascript"></script>
+  <script src="js/jquery-2.1.1.js" type="text/javascript"></script>
   <script src="socket.io/socket.io.js"></script>
   <script type="text/javascript" src="js/dosocket.js"></script>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css" type="text/css" />
   <title>Home</title>
 </head>
@@ -38,6 +37,7 @@
         </div>
         
         <div>
+          <p id="typing"></p>
           <input type="text" name="txtMessage" id="txtMessage" value="">
           <input type="button" name="btnSend" id="btnSend" value="Send">
         </div>
